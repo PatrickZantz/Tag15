@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'KarlaBold';
+    src: url('../font/Karla/Karla-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'KarlaMed';
+    src: url('../font/Karla/Karla-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'KarlaReg';
+    src: url('../font/Karla/Karla-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'KarlaReg';
+}
+
+strong {
+    font-family: 'KarlaBold';
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0 4rem;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.fig-cap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtext {
+    color: lightgray;
+}
+
+figure {
+    margin: 2rem 0;
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 10px;
+    margin: 0;
+}
+
+footer {
+    margin-bottom: 300px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+
+    margin-bottom: 100px;
+
+}
+
+.gridFlex {
+    display: flex;
+    gap: 10px;
+}
+
+.gridSecFlex {
+    justify-content: space-between;
+    display: flex;
+    /* gap: 10px; */
+}
+
+
+.gridFlexLast {
+    display: flex;
+    gap: 20px;
+    margin-left: 50%;
+}
+

@@ -21,6 +21,11 @@
     font-family: 'KarlaReg';
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 strong {
     font-family: 'KarlaBold';
 }
